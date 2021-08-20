@@ -355,7 +355,7 @@ class InstagramApi
     /**
      *  Unset current access token
      */
-    //TODO: add revoke request //TODO: add revoke request
+    //TODO: add revoke request
     protected function revokeAccessToken() {
         $this->access_token = "";
         CookieManager::unsetCookie(InstagramApi::ACCESS_TOKEN);
